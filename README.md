@@ -1,10 +1,8 @@
-markdown
-Copy code
 # Recomendador de Autores y Libros
 
 ## Descripción
 
-Este proyecto es una aplicación de Streamlit que recomienda textos basados en un autor y título ingresados por el usuario. Utiliza técnicas de procesamiento de lenguaje natural y algoritmos de similitud de coseno para generar recomendaciones relevantes.
+Este proyecto es una aplicación de Streamlit que recomienda textos basados en un autor y título ingresados por el usuario. Utiliza técnicas de procesamiento de lenguaje natural y algoritmos de similitud de coseno para generar recomendaciones relevantes. (Sistema de recomendaciones basada en contenidos)
 
 ## Requisitos
 
