@@ -74,7 +74,10 @@ git checkout
 ### Cambia la ruta de tus archivos:
 ```Ve a la linea 12 del codigo app.py y cambia la ruta donde está tu carpeta "datasets_pkl"```
 
-
+### Corre el código ejecutando la linea
+```bash
+streamlit run app.py
+```
 
 
 
