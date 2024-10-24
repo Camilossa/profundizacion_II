@@ -18,5 +18,9 @@ python3 -m venv nombre_del_entorno
 ```bash
 source nombre_del_entorno/bin/activate
 ```
+#### Desactivar entorno virtual
+```bash
+deactivate
+```
 
 
