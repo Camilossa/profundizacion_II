@@ -6,10 +6,10 @@ Este proyecto es una aplicación de Streamlit que recomienda textos basados en u
 
 ## Instalación
 
-1. Clona este repositorio.
-2. Crea un entorno virtual.
+### 1. Clona este repositorio.
+### 2. Crea un entorno virtual.
 
-### 2.1 Crear entorno virtual en macOS
+#### 2.1 Crear entorno virtual en macOS
 
 ```bash
 python3 -m venv nombre_del_entorno
