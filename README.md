@@ -23,4 +23,27 @@ source nombre_del_entorno/bin/activate
 deactivate
 ```
 
+### 2.2. Crear entorno virtual en Windows
+
+```bash
+python -m venv nombre_del_entorno
+```
+#### Activar entorno virtual
+```bash
+.\nombre_del_entorno\Scripts\Activate
+```
+#### Desactivar entorno virtual
+```bash
+deactivate
+```
+
+### 3. Descargar archivo `requiremenst.txt`
+
+```bash
+pip install -r requirements.txt
+```
+
+
+
+
 
