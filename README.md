@@ -24,10 +24,11 @@ deactivate
 ```
 
 ### 2.2. Crear entorno virtual en Windows
+#### Dar permisos para el entorno virtual
 ```bash
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
-
+#### Crear el entorno virtual
 ```bash
 python -m venv nombre_del_entorno
 ```
