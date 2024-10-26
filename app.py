@@ -7,9 +7,12 @@ from sklearn.metrics.pairwise import linear_kernel
 import nltk
 from nltk.corpus import stopwords
 
+# Descarga de stopwords
+nltk.download('stopwords')
+
 # Load data
 df = pd.DataFrame()
-pkls = Path('/Users/ossa/Desktop/borges/datasets/datasets_pkl').glob('*texts.pkl') 
+pkls = Path('C:/Users/oscar/OneDrive/Escritorio/profundizacion_II/borges/datasets/datasets_pkl').glob('*texts.pkl') 
 
 # Read all pickle files and concatenate into a DataFrame
 for pkl in pkls:
@@ -87,11 +90,11 @@ if st.button("Recomendar"):
     # Display recommendations inside the container with a black background
     with container:
         st.markdown(
-            f"""
+            """
             <div style='background-color:black;color:white;padding:10px;border-radius:5px;'>
                 <h3>Recomendaciones</h3>
-                <p>{recomendaciones.replace('\n', '<br>')}</p>
+                <p>{}</p>
             </div>
-            """,
+            """.format(recomendaciones.replace('\n', '<br>')),
             unsafe_allow_html=True
         )
